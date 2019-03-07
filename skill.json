@@ -1,5 +1,5 @@
 {
-  "skillManifest": {
+  "manifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
@@ -21,7 +21,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom"
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-city-guide-default"
         }
       }
     },
